@@ -1,0 +1,10 @@
+Package: cuAdjust
+Title: Serum Copper Age- and Inflammation- Adjustment and Interpretation
+Version: 0.1.0
+Authors@R: 
+    person("Helena", "Rodriguez-Gonzalez", email = "helena.rodriguez@sjd.es", role = c("aut", "cre"))
+Description: Provides age- and inflammation-adjusted reference intervals for pediatric serum copper and clinical interpretation tools.
+License: MIT
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
