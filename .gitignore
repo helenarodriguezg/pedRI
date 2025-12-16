@@ -1,1 +1,9 @@
+
+# R history and session files
+.Rhistory
+.RData
 .Rproj.user
+
+# Build artifacts
+.Rbuildignore
+
