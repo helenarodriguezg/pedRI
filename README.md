@@ -1,6 +1,6 @@
-# cuAdjust
+# pedRI
 
-**cuAdjust** provides tools for age- and inflammation-adjusted reference intervals for pediatric serum copper, to support interpretation.  
+**pedRI** offers tools for calculating pediatric reference intervals adjusted for age and inflammation, facilitating accurate interpretation. Serum copper is used as a proof-of-concept.
 
 This package **does not require advanced programming skills**.  
 
@@ -25,27 +25,27 @@ This package **does not require advanced programming skills**.
 
 ## Installation
 
-You can install `cuAdjust` directly from GitHub:
+You can install `pedRI` directly from GitHub:
 
 ```R
 # Install devtools if not already installed
 install.packages("devtools")
 
-# Install cuAdjust from GitHub
-devtools::install_github("helenarodriguezg/cuAdjust")
+# Install pedRI from GitHub
+devtools::install_github("helenarodriguezg/pedRI")
 ````
 
 Load the package:
 
 ```R
-library(cuAdjust)
+library(pedRI)
 ```
 
 ---
 
 ## Getting Started
 
-You will need a dataset containing:
+For the serum copper proof-of-concept, you will need a dataset containing:
 
 * **Copper concentrations (µg/L)**
 * **Patient age (months)**
@@ -60,7 +60,7 @@ An example dataset is included at `example_data\data.xlsx`.
 ### 1. Load the package
 
 ```R
-library(cuAdjust)
+library(pedRI)
 ```
 
 ### 2. Load your data
