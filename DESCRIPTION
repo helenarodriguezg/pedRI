@@ -1,9 +1,9 @@
-Package: cuAdjust
-Title: Serum Copper Age- and Inflammation- Adjustment and Interpretation
+Package: pedRI
+Title: Pediatric Reference Intervals
 Version: 0.1.0
 Authors@R: 
     person("Helena", "Rodriguez-Gonzalez", email = "helena.rodriguez@sjd.es", role = c("aut", "cre"))
-Description: Provides age- and inflammation-adjusted reference intervals for pediatric serum copper and clinical interpretation tools.
+Description: Provides a unified approach to define reference intervals and assess confounding factors in pediatric patients.
 License: MIT
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
