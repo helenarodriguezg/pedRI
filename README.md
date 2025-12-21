@@ -66,8 +66,7 @@ library(pedRI)
 ### 2. Load your data
 
 ```R
-library(readxl)  # for reading Excel files
-data <- read_excel("data.xlsx")
+read.csv2("data.csv")
 head(data)
 ```
 
